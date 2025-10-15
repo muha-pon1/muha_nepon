@@ -80,18 +80,52 @@
 
 // 2.6.2
 
-const arr = ["123", "456", "789"]
-const arr1 = []
-let anew = ''
-for (let i = 0; i < 3; i++) {
-    for (let j = arr[i].length-1; j >= 0; j--) {
-        const element = arr[i][j];
-        console.log(element)
-        anew += element
-    }
+// const arr = ["123", "456", "789"]
+// const arr1 = []
+// let anew = ''
+// for (let i = 0; i < 3; i++) {
+//     for (let j = arr[i].length-1; j >= 0; j--) {
+//         const element = arr[i][j];
+//         console.log(element)
+//         anew += element
+//     }
 
-arr1[i] = (anew)
-anew = ''   
+// arr1[i] = (anew)
+// anew = ''   
+// }
+// console.log(arr1)
+
+// 2.6.3
+
+// let str = "1234567"
+// let newstr = ""
+// let count = 0
+// for (let i = str.length-1; i >= 0; i--) {
+//     const element = str[i];
+//     console.log(element)
+//     count = count + 1
+//     if (count % 3 == 0) {
+//         newstr += ""
+//     }
+
+// newstr += element
+
+// }
+// console.log(newstr)
+
+// 2.6.4
+
+let str = "AbCdE"
+let newstr = ""
+for (let i = 0; i < str.length; i++) {
+    const element = str[i];
+    if (i%2==0) {
+
+            newstr += element.toLowerCase()
+    }else(
+    
+           newstr += element.toUpperCase()
+    )
+
 }
-console.log(arr1)
-
+console.log(newstr)
