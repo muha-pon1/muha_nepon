@@ -115,17 +115,53 @@
 
 // 2.6.4
 
-let str = "AbCdE"
-let newstr = ""
-for (let i = 0; i < str.length; i++) {
-    const element = str[i];
-    if (i%2==0) {
+// let str = "AbCdE"
+// let newstr = ""
+// for (let i = 0; i < str.length; i++) {
+//     const element = str[i];
+//     if (i%2==0) {
 
-            newstr += element.toLowerCase()
-    }else(
+//             newstr += element.toLowerCase()
+//     }else(
     
-           newstr += element.toUpperCase()
-    )
+//            newstr += element.toUpperCase()
+//     )
 
-}
-console.log(newstr)
+// }
+// console.log(newstr)
+
+// 2.6.5
+
+// const array = [1, 2, 3, 4, 5, 6]
+// const newarr = []
+// for (let i = 0; i < array.length; i++) {
+//     const element = array[i];
+//     if (i %2 == 1) {
+//         newarr.push(String(array[i-1])+String(array[i]))
+//     }   
+// }
+// console.log(newarr)
+
+// 2.6.6
+
+// let str = 'aaa bbb ccc eee fff'
+// let str1 = ''
+// let count = 0
+// for (let i = 0; i < str.length; i++) {
+//     const element = str[i];
+//     if (str[i-1] == " "){
+//         count += 1
+//         if (count %2 == 1) {
+//             console.log('asdasd')
+//             // str1 += " "
+//             str1 += str[i+1].toUpperCase()
+//         }else{
+//             str1 += str[i]
+//         }
+//     }else{
+//         str1 += str[i]
+//     }
+// }
+// console.log(str1)
+
+// 
