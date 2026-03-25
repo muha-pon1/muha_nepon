@@ -1,6 +1,32 @@
 .footer{
-    background-color: black;
+    background-color: #edebe8;
     width: 100%;
     height: 350px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    align-items: center;
+
+}
+
+.logo2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    font-weight: 900;
+    font-style: italic;
+
+
+}
+.slid{
+    font-size: x-large;
+    font-weight: 700;
+    
+}
+.predlog{
+        font-style: italic;
+        font-size: large;
+        margin-top: 1px;
 }
 

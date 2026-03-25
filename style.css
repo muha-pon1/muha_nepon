@@ -28,7 +28,7 @@ body{
 .rec {
     width: 300px;
     height: 50px;
-    background-color: white;
+    background-color: #edebe8;
     border-radius: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
