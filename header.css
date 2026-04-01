@@ -17,6 +17,8 @@
     font-size: x-large;
     font-weight: 700;
     font-style: italic;
+    color: black;
+    border: none;
 }
 .header{
     width: 100%;
