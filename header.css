@@ -3,6 +3,8 @@
     font-size: xx-large;
     font-weight: 900;
     font-style: italic;
+    color: black;
+    border: none;
 }
 .contacti{
     font-style: italic;
@@ -30,4 +32,6 @@
     font-size: x-large;
     font-weight: 700;
     font-style: italic;
+    color: black;
+    border: none;
 }
