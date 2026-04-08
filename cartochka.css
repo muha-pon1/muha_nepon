@@ -4,15 +4,52 @@ body{
 .div{
     width: 100%;
     height: 1200px;
-
+}
+body{
+    margin: 0;
+}
+.slider{
+    width: 100%;
+    position: relative;
 }
 .cart{
-    display: flex;
-    height: 800px;
     width: 100%;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+  
+}
+.cart img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.cart img.active{
+    display: block;
+}
+.slider button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#prev{
+    left: 10px;
+}
+#next{
+    right: 10px;
 }
 .info{
-    width: 1700px;
+    width: 100%;
     height: 300px;
     background-color: #edebe8;
     display: flex;
@@ -23,6 +60,7 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
     align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .nazva{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -43,7 +81,7 @@ body{
     font-size: large;
     font-weight: 700;
     font-style: italic;
-    position: absolute;
+
 
 }
 .adress{
