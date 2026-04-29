@@ -38,6 +38,7 @@ body{
     height: 700px;
     background-color: darkgray;
     margin-top: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .vidguki{
     width: 100%;
@@ -46,6 +47,7 @@ body{
     margin-top: 110px;
     display: flex;
     justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);    
 }
 .predlog{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -56,4 +58,22 @@ body{
 .slaidi-block{
     display: flex;
     justify-content: center;
+}
+body.light {
+    background: white;
+    color: black;
+}
+
+body.dark {
+    background: #121212;
+    color: white;
+}
+
+.tema {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    font-weight: 900;
+    font-style: italic;
+    color: black;
+    cursor: pointer;
 }
