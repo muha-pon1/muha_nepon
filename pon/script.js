@@ -1,18 +1,12 @@
-// 3.1.1
+const obj = {
+    name: '',
+    age: '',
 
-const num = 18763
-const numStr = num.toString()
-
-
-
-for (let i = 0; i < numStr.length - 1; i++) {
-    const element = numStr[i];
-      
-    if (element < numStr[i+1] ) {
-       console.log(numStr);
- 
-    
-    }
 }
+const name1 = prompt('whats ur name')
+const age1 = prompt('how old are u')
 
+obj.name = name1
+obj.age = age1
 
+console.log(obj)
