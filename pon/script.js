@@ -45,16 +45,41 @@
 // }
 
 
-class Human {
-  bd = []
+class User {
+  userDb = [];
 
-  constructor(name1, age1) {
-      this.name = name1
-      this.age = age1    
+  constructor(login, password) {
+      this.login = login;
+      this.password = password;   
 
+  }
+  pushToUserDb(log, pass) {
+      const user = {
+        login: log,
+        password: pass
+      };
+    
+      this.userDb.push(user)
+  }
+
+  getUserDb() {
+      return this.userDb;
   }
 
 }
 
+const input = document.getElementById('id');
 
 
+
+function clicker() {
+    const login = input.value;
+    const password = 123;
+
+    const newUser = new User(login, password);
+     newUser.pushToUserDb(login, password);
+
+      console.log(newUser.getUserDb());
+    
+
+}
