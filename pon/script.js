@@ -24,7 +24,6 @@
 // }
 
 
-
 //   const hasNum = /[A-Z]/.test(pass)
 //   const upperCase = /\d/.test(pass)
 //   const isLengthCorrect = pass.length >= 8? true : false;
@@ -33,7 +32,6 @@
 //   if (hasNum && isLengthCorrect && upperCase && isUnderScore) {
 //     pass1 = true
 //   } else pass1 = false
-
 
 
 //     console.log(log1);
@@ -45,41 +43,125 @@
 // }
 
 
-class User {
-  userDb = [];
 
-  constructor(login, password) {
-      this.login = login;
-      this.password = password;   
 
-  }
-  pushToUserDb(log, pass) {
-      const user = {
-        login: log,
-        password: pass
-      };
+
+// class User {
+//   userDb = [];
+
+//   constructor(login, password) {
+//       this.login = login;
+//       this.password = password;   
+
+//   }
+//   pushToUserDb(log, pass) {
+//       const user = {
+//         login: log,
+//         password: pass
+//       };
     
-      this.userDb.push(user)
-  }
+//       this.userDb.push(user)
+//   }
 
-  getUserDb() {
-      return this.userDb;
-  }
+//   getUserDb() {
+//       return this.userDb;
+//   }
 
-}
+// }
 
-const input = document.getElementById('id');
+// const input = document.getElementById('id');
 
+// function clicker() {
+//     const login = input.value;
+//     const password = 123;
 
+//     const newUser = new User(login, password);
+//      newUser.pushToUserDb(login, password);
 
-function clicker() {
-    const login = input.value;
-    const password = 123;
-
-    const newUser = new User(login, password);
-     newUser.pushToUserDb(login, password);
-
-      console.log(newUser.getUserDb());
+//       console.log(newUser.getUserDb());
     
 
-}
+// }
+
+
+
+
+
+// const arr = [12,9,7,15]
+
+
+// for (let i = 0; i < arr.length; i++) {
+//     const element = arr[i];
+    
+//     if (element > 10) {
+//         console.log(element);
+        
+//     }
+
+
+// }
+
+
+
+
+ 
+// const family = [
+//     { 
+//        name: 'sasha',
+//        age:12,
+//        family: ["mom", "dad", "sis", "bro"]
+       
+//     },
+//        { 
+//        name: 'sasha1',
+//        age:12,
+//        family:["mom", "dad", "sis"]
+       
+//     },
+//        { 
+//        name: 'sasha2',
+//        age:12,
+//        family:["mom", "dad", "bro"]
+       
+//     },
+//        { 
+//        name: 'sasha3',
+//        age:12,
+//        family:["mom", "dad", "bro"]
+       
+//     },
+//        { 
+//        name: 'sasha4',
+//        age:12,
+//        family:["mom", "dad", "sis", "bro"]
+       
+//     },
+//        { 
+//        name: 'sasha5',
+//        age:12,
+//        family:["mom", "dad", "sis", "bro"]
+       
+//     },
+//        { 
+//        name: 'sasha6',
+//        age:12,
+//        family:["mom", "dad", "sis", "bro"]
+       
+//     }
+
+  
+// ];
+
+//     for (let i = 0; i < family.length; i++) {
+//         const element = family[i];
+          
+//         if (element.family.length === 4 ) {
+                
+//               console.log(element);
+              
+
+//             }
+//     }
+
+
+
