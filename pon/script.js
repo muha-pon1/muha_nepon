@@ -180,3 +180,23 @@
 
 
 
+// const num = [3,4,7,12,9,10];
+// const chet = [];
+// const neChet = [];
+
+// for (let i = 0; i < num.length; i++) {
+//     const element = num[i];
+    
+//     if (element % 2 === 0) {
+//         chet.push(element)
+//     } else
+//         neChet.push(element)    
+//     }
+   
+//     console.log(chet);
+//     console.log(neChet);
+
+
+
+
+
